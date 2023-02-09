@@ -23,9 +23,4 @@ Finally, you will need some additional libxcb dependencies.  You can simply inst
 
 ```bash
 sudo apt-get install libx11-xcb-dev
-```bash
-
-
-
-
-
+```
