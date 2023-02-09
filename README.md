@@ -12,7 +12,7 @@ On Linux you need the xclip library, install it with something like:
 sudo apt-get install xclip
 ```
 
-You will also need to have both Rust and Rust's package manager Cargo to run the install script
+You will also need to have both Rust and Rust's package manager Cargo to run the install script.
 Install both with something like:
 
 ```bash
