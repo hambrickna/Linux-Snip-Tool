@@ -21,6 +21,13 @@ sudo curl https://sh.rustup.rs -sSf | sh
 
 Finally, you will need some additional libxcb dependencies.  You can simply install with something like:
 
+
+For Debian/Ubuntu:
 ```bash
-sudo apt-get install libx11-xcb-dev
+sudo apt install libxcb-shape0-dev libxcb-xfixes0-dev
+```
+
+For Fedora:
+```bash
+sudo dnf install xcb-util\*-devel
 ```
