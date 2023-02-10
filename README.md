@@ -31,3 +31,11 @@ For Fedora:
 ```bash
 sudo dnf install xcb-util\*-devel
 ```
+
+In order to run Snip in any directory you need to move the bin generated in 
+the release folder to your usr/bin folder.  The following code should work
+for most everyone:
+
+```bash
+sudo mv target/release/snip /usr/bin
+```
